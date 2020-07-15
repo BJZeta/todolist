@@ -6,10 +6,7 @@ import ToDoList from "./components/ToDoList";
 
 export default class App extends Component {
   state = {
-    items: [
-      { id: 1, title: "wake up" },
-      { id: 2, title: "breakfast" },
-    ],
+    items: [],
     id: uuidv4(),
     item: "",
     editItem: false,
