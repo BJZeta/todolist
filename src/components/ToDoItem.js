@@ -5,7 +5,7 @@ export default class ToDoItem extends Component {
     const { title, handleDelete, handleEdit } = this.props;
 
     return (
-      <li className="list-group-item d-flex justify-content-between my-2">
+      <li className="list-group-item d-flex justify-content-between text-capitalize my-2">
         <h6>{title}</h6>
         <div className="todo-icon">
           <span className="mx-2 text-success" onClick={handleEdit}>
